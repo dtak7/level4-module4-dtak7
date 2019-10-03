@@ -75,7 +75,7 @@ public class PolymorphWindow extends JPanel implements ActionListener, MouseMoti
 		for(int i =0; i<polys.size();i++) {
 			if(polys.get(i) instanceof MouseMorph) {
 				polys.get(i).setX(e.getX()-20);
-				polys.get(i).setY(e.getY()-40);
+				polys.get(i).setY(e.getY());
 			}
 		}
 		

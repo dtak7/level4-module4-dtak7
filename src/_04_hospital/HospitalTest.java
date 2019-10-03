@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import junit.framework.TestCase;
@@ -16,7 +17,7 @@ import junit.framework.TestCase;
  */
 
 public class HospitalTest extends TestCase {
-
+	ArrayList<Doctor> doctors = new ArrayList<Doctor>();
 	Hospital testHospital = new Hospital();
 
 	public void testAddDoctor() {
